@@ -7,7 +7,7 @@ export const Student = ()=>{
   const { id } = useParams()
   const [data , setData] = useState([]);
   useEffect(()=>{
-    fetch(`https://calm-ruby-tick-vest.cyclic.app/students/${id}`)
+    fetch(`https://tame-erin-bonobo-coat.cyclic.app/students/${id}`)
     .then(res => res.json())
     .then(data => setData(data))
     .catch(err => console.log(err))
